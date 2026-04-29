@@ -1,0 +1,25 @@
+### Cadastrar um novo veículo
+POST http://localhost:8080/vehicles
+Content-Type: application/json
+
+{
+  "placa": "ABC1D23",
+  "modelo": "Sandero 1.0",
+  "ano": 2015,
+  "cor": "prata"
+}
+
+### Listar todos os veículos
+GET http://localhost:8080/vehicles
+Accept: application/json
+
+### Tentar cadastrar o mesmo Sandero novamente (deve retornar 409 Conflict)
+POST http://localhost:8080/vehicles
+Content-Type: application/json
+
+{
+  "placa": "ABC1D23",
+  "modelo": "Sandero 1.0",
+  "ano": 2015,
+  "cor": "prata"
+}

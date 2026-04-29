@@ -1,0 +1,8 @@
+com\oficina\dto\VehicleRequestDTO.class
+com\oficina\exception\DuplicateLicensePlateException.class
+com\oficina\service\VehicleService.class
+com\oficina\model\Vehicle.class
+com\oficina\OficinaApplication.class
+com\oficina\exception\GlobalExceptionHandler.class
+com\oficina\repository\VehicleRepository.class
+com\oficina\controller\VehicleController.class
