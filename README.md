@@ -12,9 +12,9 @@ A construção desta aplicação não seguiu o modelo tradicional de codificaç�
 
 ## 🛠️ Stack Tecnológica
 
-* **Linguagem:** Java 26 (Oracle JDK)
+* **Linguagem:** Java 21 (Oracle JDK)
 * **Framework:** Spring Boot 3.3.2
-* **Build Tool:** Maven 3.9
+* **Build Tool:** Maven 3.13.0
 * **Banco de Dados:** H2 Database (In-memory)
 * **Persistência:** Spring Data JPA / Hibernate
 
